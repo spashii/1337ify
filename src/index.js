@@ -35,6 +35,8 @@ function leetify(element) {
   inputElements.forEach((e) => {
     e.placeholder = leetifyString(e.placeholder);
   });
+
+  document.title = leetifyString(document.title);
 }
 
 leetify(document.body);
