@@ -1,0 +1,10 @@
+{
+  "name": "1337ify",
+  "version": "1.0.0",
+  "description": "changes text content to 1337",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
